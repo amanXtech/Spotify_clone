@@ -23,6 +23,7 @@ body {
     width: 340px;
     /* margin: 0.50rem; */
     border-radius: 1rem;
+    margin-right: 0.40rem;
 }
 
 .music-player {
