@@ -138,3 +138,8 @@ a {
     align-items: center;
     padding: 1rem 0 1rem 0;
 }
+
+.sticky-nav {
+    margin-left: 0.80rem;
+    margin-right: 0.75rem;
+}
