@@ -16,7 +16,8 @@ body {
     background-color: #121212;
     flex: 1;
     border-radius: 1rem;
-    padding: 0 1.5rem 0 1.5rem;
+    /* padding: 0 1.5rem 0 1.5rem; */
+    overflow: auto;
 }
 
 .sidebar {
@@ -137,8 +138,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0 0 0;
-    border-radius: 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .sticky-nav-options {
@@ -175,9 +176,12 @@ a {
 
 .card-container {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 1.5rem;
 }
 
 .card {
+    margin: 10px;
     background-color: #232323;
     border-radius: 0.6rem;
     width: 150px;
