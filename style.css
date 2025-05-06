@@ -136,7 +136,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0 1rem 0;
+    padding: 0.80rem 0 1rem 0;
     border-radius: 1rem;
 }
 
@@ -147,7 +147,6 @@ a {
 .sticky-nav-options {
     display: flex;
     align-items: center;
-
 }
 
 .nav-item {
@@ -159,3 +158,20 @@ a {
     color: #fff;
 }
 
+.dark-badge:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+}
+
+.nav-icon:hover {
+    opacity: 1;
+}
+
+.nav-icon {
+    opacity: .80;
+}
