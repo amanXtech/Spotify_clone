@@ -221,17 +221,13 @@ a {
 .play-but{
     padding: 0 25px 10px 0;
     height: 24px;
-    width: 24px;
+    /* width: 24px; */
     opacity: 1;
 }
 
-/* .play-but:hover {
-    transform: scale(1.1);
-} */
-
 .pctrl{
     height: 20px;
-    width: 20px;
+    /* width: 20px; */
     padding: 0 25px 10px 0;
 }
 
@@ -259,7 +255,7 @@ a {
 .progress-bar {
     width: 75%;
     height: 5px;
-    accent-color: rgb(41, 187, 41);
+    accent-color: #1bd760;
     margin: 6px 6px 0 6px;
 }
 
