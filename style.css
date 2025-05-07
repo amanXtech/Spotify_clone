@@ -30,6 +30,7 @@ body {
 
 .music-player {
     background-color: black;
+    display: flex;
     position: fixed;
     bottom: 0px;
     height: 72px;
@@ -140,6 +141,7 @@ a {
     align-items: center;
     padding: 1rem 1rem 0.5rem 1rem;
     border-radius: 1rem 1rem 0 0;
+    z-index: 10;
 }
 
 .sticky-nav-options {
@@ -188,6 +190,11 @@ a {
     padding: 1rem;
 }
 
+.card:hover {
+    box-shadow: rgba(194, 5, 5, 0.22) 0px 10px 20px;
+    /* transform: translate3d(0px, 1px, 0px); */
+}
+
 .card-image {
     width: 100%;
     border-radius: 0.6rem;
@@ -199,4 +206,68 @@ a {
 
 .card-info {
     font-weight: 300;
+}
+
+.album {
+    width: 25%;
+}
+
+.player {
+    /* display: flex; */
+    /* align-items: center; */
+    width: 50%;
+}
+
+.play-but{
+    padding: 0 25px 10px 0;
+    height: 24px;
+    width: 24px;
+    opacity: 1;
+}
+
+/* .play-but:hover {
+    transform: scale(1.1);
+} */
+
+.pctrl{
+    height: 20px;
+    width: 20px;
+    padding: 0 25px 10px 0;
+}
+
+.player-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.pctrl {
+    opacity: 0.75;
+}
+
+.pctrl:hover {
+    opacity: 1;
+}
+
+.playback {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.progress-bar {
+    width: 75%;
+    height: 5px;
+    accent-color: rgb(41, 187, 41);
+    margin: 6px 6px 0 6px;
+}
+
+.time {
+    font-size: small;
+    font-weight: 200;
+}
+
+.controls {
+    width: 25%;
 }
